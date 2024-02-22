@@ -1,35 +1,14 @@
-# epsilon
+# Epsilon
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a Vue 3 application notepad. It's a simple application to take notes.
 
-## Recommended IDE Setup
+## 💻 Technolgies used :
+![](https://skillicons.dev/icons?i=vuejs)
+![](https://skillicons.dev/icons?i=html)
+![](https://skillicons.dev/icons?i=css)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## ⚙️ Status :
+⚙️ `In progress`
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 🔗 Link :
+[https://www.epsilon-project.vercel.app](https://www.epsilon-project.vercel.app)
