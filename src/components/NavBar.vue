@@ -88,7 +88,6 @@ li {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     transition: background-color 0.2s;
-    min-width: fit-content;
 }
 
 li:hover {
@@ -100,7 +99,10 @@ button {
     border: none;
     color: #fff;
     padding: 0.5rem;
-    min-width: fit-content;
+    max-width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
     height: 100%;
     cursor: pointer;
 }
