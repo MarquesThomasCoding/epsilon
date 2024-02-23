@@ -22,6 +22,9 @@ export default {
             this.noteStore.delete(this.thisNote.id);
         },
         updateNoteContent() {
+            // const textarea = document.querySelector('textarea')
+            // textarea.style.height = ""
+            // textarea.style.height = textarea.scrollHeight + "px"
             this.noteStore.updateNoteContent(this.thisNote.content, this.thisNote.id);
         },
         updateNoteTitle() {
@@ -34,7 +37,7 @@ export default {
 <template>
     <main>
         <input name="note-title" v-model="thisNote.title" @change="updateNoteTitle()" />
-        <textarea name="note-content" v-model="thisNote.content" @change="updateNoteContent()" cols="30" rows="10"></textarea>
+        <textarea name="note-content" v-model="thisNote.content" @change="updateNoteContent()" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
     </main>
 </template>
 
@@ -58,7 +61,7 @@ input {
 
 textarea {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     padding: 10px;
     font-size: 1rem;
     border: none;
