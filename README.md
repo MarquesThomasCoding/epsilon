@@ -11,4 +11,4 @@ This project is a Vue 3 application notepad. It's a simple application to take n
 ⚙️ `In progress`
 
 ## 🔗 Link :
-[https://www.epsilon-project.vercel.app](https://epsilon-project.vercel.app)
+[https://epsilon-project.vercel.app](https://epsilon-project.vercel.app)
